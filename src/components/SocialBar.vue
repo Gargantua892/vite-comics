@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="container d-flex justify-content-between py-4">
-            <div class="button">Sign-up Now</div>
+            <div class="button button-linear">Sign-up Now</div>
             <div class="social-container d-flex align-items-center gap-2">
                 <h5>follow us</h5>
                 <img src="../assets/img/footer-facebook.png" alt="">
@@ -40,10 +40,8 @@ h5{
     color: #fff;
 }
 
-.button{
+.button-linear{
     border: 2px solid $primary;
-    text-transform: uppercase;
-    padding: 8px 12px;
 }
 
 

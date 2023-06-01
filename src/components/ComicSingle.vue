@@ -16,12 +16,13 @@ export default {
 <style lang="scss">
 
 .comic-card{
-    width: calc((100% / 6) - 16px );
+    width: calc((100% / 6) - 16px);
     color: #fff;
     img{
         width: 100%;
         height: 200px;
         object-fit: cover;
+        object-position: top;
 
     }
 }

@@ -1,7 +1,11 @@
 <template>
     <div class="comics-list">
         <div class="comic-container">
+            <div class="info-box">
+                <h4>Current series</h4>
+            </div>
             <ComicSingle v-for="(comic, i) in comics" :key="i" :details="comic" />
+            <div class="button button-solid">Load more</div>
         </div>
     </div>
 </template>
@@ -92,11 +96,31 @@ export default {
 </script>
 
 <style lang="scss">
+@use '../styles/partials/variables.scss' as *;
+
  .comic-container{
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
     justify-content: center;
  }
+
+ .comics-list{
+    position: relative;
+
+    .info-box{
+    position: absolute;
+    background-color: $primary;
+    left: 0;
+    top: -88px;
+    padding: 6px 12px;
+    color: $white;
+
+    h4{
+        margin: 0px;
+    }
+ }
+ }
+
 
 </style>
