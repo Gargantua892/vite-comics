@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="service-bar py-4">
-            <div class="container">
+            <div class="container my-4">
                 <div class="justify-content-center d-flex justify-content-around flex-wrap">
                     <div v-for="service in services" class="d-flex align-items-center gap-2">
                         <img :src="getImagePath(`../assets/img/${service.img}`)" alt="">

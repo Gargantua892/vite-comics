@@ -60,7 +60,7 @@
 footer{
   background: url('../assets/img/dc-logo-bg.png') right center no-repeat, url('../assets/img/footer-bg.jpg') center center no-repeat;
   color: #fff;
-  background-size: 40% auto, cover;
+  background-size: 35% auto, cover;
   background-position: 90%, 100%;
   background-repeat: no-repeat, no-repeat;
 
